@@ -1,0 +1,74 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom CSS
+
+@import "custom";
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.py-4{
+  height: auto;
+  width: 100%;
+}
+.specBox{
+  /*padding-top: 2em;*/
+  /*padding-bottom: 2em;*/
+  height: auto;
+  width: 100%;
+  display: table;
+  padding-top: 100px;
+
+}
+.specLeft{
+  /*height: 100%;*/
+  width: 60%;
+  /*padding-left: 13%;*/
+  /*padding-right: 13%;*/
+  float: left;
+  margin: 0 auto;
+
+}
+.specRight {
+  /*height: 100%;*/
+  width: 40%;
+  /*padding-left: 13%;*/
+  /*padding-right: 13%;*/
+  float: left;
+  margin: 0 auto;
+}
+
+.specLeft img {
+  max-width: 100%; !important;
+  height: auto;
+  padding-left: 40px;
+
+}
+
+.specRight img {
+  max-width: 100%;
+  height: auto;
+  padding-right: 40px;
+
+}
+
+.container {
+  height: auto; !important;
+  width: 100%; !important;
+}
+
+.mainbox{
+
+  height: auto;
+  width: 100%;
+}
